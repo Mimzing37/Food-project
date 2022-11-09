@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MyProject</string>
+    <string name="call">Contcat us</string>
+    <string name="hours">Work HOURS</string>
+    <string name="learn">Learn more</string>
+    <string name="pres">Homepage</string>
+    <string name="press">CARD</string>
+
+    <string name="price1">400 رس</string>
+    <string name="card1">سلة غذائية لأسرة كبيرة</string>
+
+    <string name="price2">300 رس</string>
+    <string name="card2">سلة غذائية لأسرة متوسطة</string>
+
+    <string name="price3">200 رس</string>
+    <string name="card3">سلة غذائية لأسرة صغيرة</string>
+
+    <string name="price4">100 رس</string>
+    <string name="card4">المبادرةالملكية وجبات سقيا</string>
+
+
+
+
+</resources>

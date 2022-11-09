@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    tools:context=".MainActivity"
+    android:background="#3B837D">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#3B837D"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <androidx.gridlayout.widget.GridLayout
+                android:id="@+id/gridLayout"
+                android:layout_width="404dp"
+                android:layout_height="888dp"
+                android:layout_margin="2dp"
+                app:columnCount="2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.52"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                app:rowCount="3"
+                tools:ignore="MissingConstraints">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/first"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_margin="5dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="0dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1"
+                    tools:ignore="DuplicateIds">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        tools:ignore="UselessLeaf">
+
+                        <ImageView
+                            android:id="@+id/first"
+                            android:layout_width="157dp"
+                            android:layout_height="220dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/card1"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="44dp"
+                            android:layout_below="@+id/first"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="-17dp"
+                            android:text="@string/card1"
+                            android:textSize="17dp"
+
+                            tools:ignore="HardcodedText,SpUsage" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/first"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="2dp"
+                            android:text="@string/price1"
+
+                            tools:ignore="HardcodedText" />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/second"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_margin="5dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="0dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1"
+                    tools:ignore="DuplicateIds">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        tools:ignore="UselessLeaf">
+
+                        <ImageView
+                            android:id="@+id/second"
+                            android:layout_width="157dp"
+                            android:layout_height="220dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/card1"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="44dp"
+                            android:layout_below="@+id/second"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="-17dp"
+                            android:text="@string/card2"
+                            android:textSize="17dp"
+
+                            tools:ignore="HardcodedText,SpUsage" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/second"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="2dp"
+                            android:text="@string/price2"
+
+                            tools:ignore="HardcodedText" />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/third"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_margin="5dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="0dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1"
+                    tools:ignore="DuplicateIds">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        tools:ignore="UselessLeaf">
+
+                        <ImageView
+                            android:id="@+id/third"
+                            android:layout_width="157dp"
+                            android:layout_height="220dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/card1"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="44dp"
+                            android:layout_below="@+id/third"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="-17dp"
+                            android:text="@string/card3"
+                            android:textSize="17dp"
+
+                            tools:ignore="HardcodedText,SpUsage" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/third"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="2dp"
+                            android:text="@string/price3"
+                            tools:ignore="HardcodedText" />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/fourth"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_margin="5dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="0dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1"
+                    tools:ignore="DuplicateIds">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        tools:ignore="UselessLeaf">
+
+                        <ImageView
+                            android:id="@+id/fourth"
+                            android:layout_width="157dp"
+                            android:layout_height="220dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/card2"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="44dp"
+                            android:layout_below="@+id/fourth"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="-17dp"
+                            android:text="@string/card4"
+                            android:textSize="17dp"
+
+                            tools:ignore="HardcodedText" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/fourth"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="2dp"
+                            android:text="@string/price4"
+
+                            tools:ignore="HardcodedText" />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/first"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_margin="5dp"
+                    android:background="#3B837D"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="0dp"
+                    app:layout_columnWeight="0.2"
+                    app:layout_rowWeight="0.2"
+                    tools:ignore="DuplicateIds">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#3B837D"
+                        tools:ignore="UselessLeaf">
+
+
+                        <Button
+                            android:id="@+id/back"
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:backgroundTint="@color/purple_200"
+                            android:text="back"
+                            android:onClick="back"
+                            tools:ignore="ContentDescription,HardcodedText" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </androidx.gridlayout.widget.GridLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>
